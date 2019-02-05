@@ -16,13 +16,17 @@ Parser for AST Nodes
 
 class parser() {
   private:
-    class boolExpr(){
+    class expr(){
+          astNode* e1 = expr();
     };
-    class NotExpr(){
+      
+    class boolExpr(e1){
     };
-    class AndExpr(){
+    class NotExpr(e1){
     };
-    class OrExpr(){
+    class AndExpr(e1){
+    };
+    class OrExpr(e1){
     };
     
 };
