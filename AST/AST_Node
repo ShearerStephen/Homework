@@ -3,3 +3,18 @@ Project 2
 Abstract Syntax Tree and Implementation
 2/5/19
 */
+
+enum astNodeType {
+
+}
+
+class astNode {
+
+public:  
+  astNode() {
+  
+  }
+  ~astNode() {
+  
+  }
+};
