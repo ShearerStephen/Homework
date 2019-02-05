@@ -5,3 +5,7 @@ Abstract Syntax Tree and Implementation
 
 Parser for AST Nodes
 */
+
+class parser() {
+
+};
