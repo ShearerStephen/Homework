@@ -10,16 +10,23 @@ enum astNodeType {
 	logicalNOT,
 	logicalAND,
 	logicalOR,
-	Undefined 
+	undefined 
 }
 
 class astNode {
 
 public:  
+  astNodetype type;
+  astNode* right;
+	astNode* left;
+
   astNode() {
-  
+    type = undefined
+    left = NULL;
+    right = NULL;
   }
   ~astNode() {
-  
+    delete left;
+    delete right;
   }
 };
