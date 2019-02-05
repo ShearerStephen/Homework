@@ -5,12 +5,12 @@ Abstract Syntax Tree and Implementation
 */
 
 enum astNodeType {
-	boolTrue,
-	boolFalse,
-	logicalNOT,
-	logicalAND,
-	logicalOR,
-	undefined 
+  boolTrue,
+  boolFalse,
+  logicalNOT,
+  logicalAND,
+  logicalOR,
+  undefined 
 }
 
 class astNode {
